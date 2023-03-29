@@ -1,0 +1,18 @@
+{
+    "name": "kabanist",
+    "version": "1.0.0",
+    "description": "# Kanban",
+    "main": "index.tsx",
+    "scripts": {
+        "build": "cd server && npm install  && cd ../client && npm install --legacy-peer-deps && cd ckeditor5 && npm install && npm run build && cd .. && npm run build ",
+        "start": "node server/bin/www",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitlab.com/adrien_dubois/project-manager.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://gitlab.com/adrien_dubois/project-manager/-/blob/master/README.md"
+}
